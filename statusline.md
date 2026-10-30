@@ -14,7 +14,7 @@ Segments, in order (omit any segment whose data is missing):
 1. Folder: basename of workspace.current_dir (bold cyan), then the git branch (magenta).
 2. Git state: yellow ● if uncommitted changes, green ↑N ahead / red ↓N behind upstream
    (git --no-optional-locks).
-3. Jira ticket parsed from the branch name, e.g. MG-1234-foo → MG-1234 (bold blue).
+3. Jira ticket parsed from the branch name, e.g. XX-1234-foo → XX-1234 (bold blue).
 4. AWS: `aws:<AWS_PROFILE without the .RoleName suffix>`; bold red if the profile name
    contains "prod", orange otherwise. Look up the profile's sso_start_url in ~/.aws/config,
    find the matching token in ~/.aws/sso/cache/*.json, and show time left (⏳3h20m):
